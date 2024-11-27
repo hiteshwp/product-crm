@@ -1,0 +1,42 @@
+.parsley-errors-list
+{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.parsley-errors-list li
+{
+	color: red;
+	font-size: 14px;
+}
+
+.input-custom-icon span {
+    position: absolute;
+    z-index: 10;
+    line-height: 40px;
+    left: 13px;
+    top: 0;
+    font-size: 16px;
+    color: #7d8287;
+    transform: none;
+}
+
+.alertify-notifier.ajs-bottom {
+    bottom: unset;
+    top: 10px;
+}
+
+.alertify-notifier.ajs-right .ajs-message.ajs-visible {
+    right: 350px;
+    left: auto;
+}
+
+.alertify-notifier .ajs-message {
+    position: relative;
+    width: 350px;
+}
+
+.form-control, select
+{
+    border: 1px solid #d1d1d1 !important;
+}
